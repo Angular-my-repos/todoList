@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background: #03A9f4;
+}
+.title {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #03f4f4;
+  border-radius: 15px;
+}
+.todo-list {
+  width: 600px;
+  height: 800px;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.todo-single {
+  border-bottom: solid 1px black;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
